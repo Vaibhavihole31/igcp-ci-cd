@@ -9,6 +9,10 @@ app.get("/", async(req, res)=>{
     res.send(`<h1>All Good </h1>`)
 })
 
+app.get("/health", async(req, res)=>{
+    res.send(`<h1>Awesome..</h1>`)
+})
+
 app.get("/test", (req, res)=>{
     res.send("<h1>Hey I am Working....</h1>")
 })
