@@ -17,6 +17,11 @@ app.get("/test", (req, res)=>{
     res.send("<h1>Hey I am Working....</h1>")
 })
 
+app.get("/sample", (req, res)=>{
+    res.send("<h1>IGCP....</h1>")
+})
+
+
 const PORT = 3000;
 app.listen(PORT, ()=>{
     console.log(`Server is listening on ${PORT}`)
